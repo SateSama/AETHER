@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "dist": "vite build && electron-builder --win --x64"
+    "dist": "vite build && electron-builder --win --x64 --publish never"
   },
   "dependencies": {
     "lucide-react": "^1.16.0",
