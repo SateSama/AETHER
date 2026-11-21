@@ -1,0 +1,25 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=JetBrains+Mono:wght@400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #040406;
+  color: #d1d5db;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #040406;
+}
+::-webkit-scrollbar-thumb {
+  background: #1f2430;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C5A869;
+}
